@@ -1,3 +1,10 @@
+# Efficient multi-level Gaussian process regression
+
+This repository contains the efficient implementation of multi-level Gaussian
+process regression from the paper "Computationally efficient multi-level
+Gaussian process regression for functional data observed under completely or
+partially regular sampling designs" and an example of how to run it.
+
 # Overview
 
 - `functions.stan` contains functions for all parts of the implementation: the
