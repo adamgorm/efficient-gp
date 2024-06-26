@@ -5,6 +5,8 @@ process regression from the paper "Computationally efficient multi-level
 Gaussian process regression for functional data observed under completely or
 partially regular sampling designs" and an example of how to run it.
 
+Check out the preprint here: https://arxiv.org/abs/2406.13691
+
 # Overview
 
 - `functions.stan` contains functions for all parts of the implementation: the
