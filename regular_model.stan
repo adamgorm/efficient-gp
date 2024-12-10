@@ -44,11 +44,11 @@ generated quantities {
   matrix[n_pred, n_group] f_pred;
   {
     matrix[n_pred, n_group+1] mu_eta_pred =
-      mu_eta_reg_smart_rng(y_obs_vec, y_obs, t_obs, t_pred,
-                           n_obs, n_group, n_obs_total, n_pred,
-                           magnitude_mu, length_scale_mu,
-                           magnitude_eta, length_scale_eta,
-                           sigma, one_mat_n_group);
+      mu_eta_reg_smart_iter_rng(y_obs_vec, y_obs, t_obs, t_pred,
+                                n_obs, n_group, n_obs_total, n_pred,
+                                magnitude_mu, length_scale_mu,
+                                magnitude_eta, length_scale_eta,
+                                sigma, one_mat_n_group);
     mu_pred = mu_eta_pred[, 1];
     eta_pred = mu_eta_pred[, 2:];
     f_pred = f_draws(mu_eta_pred);
