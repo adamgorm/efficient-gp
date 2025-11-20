@@ -1,11 +1,17 @@
 # Efficient multi-level Gaussian process regression
 
-This repository contains the efficient implementation of multi-level Gaussian
-process regression from the paper "Computationally efficient multi-level
-Gaussian process regression for functional data observed under completely or
-partially regular sampling designs" and an example of how to run it.
+This repository contains the efficient implementation of multilevel Gaussian
+process regression described in:
 
-Check out the preprint here: https://arxiv.org/abs/2406.13691
+**Hoffmann, Ekstrøm & Jensen (2025).**
+
+*Computationally efficient multi-level Gaussian process regression for
+functional data observed under completely or partially regular sampling designs.*
+
+Published in **TEST**.
+
+- DOI: https://doi.org/10.1007/s11749-025-00996-4
+- Preprint: https://arxiv.org/abs/2406.13691
 
 # Overview
 
