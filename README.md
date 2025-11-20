@@ -1,4 +1,4 @@
-# Efficient multi-level Gaussian process regression
+# Efficient multilevel Gaussian process regression
 
 This repository contains the efficient implementation of multilevel Gaussian
 process regression described in:
